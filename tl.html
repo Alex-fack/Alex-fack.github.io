@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>信息采集登记表</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,sans-serif;background:#f5f5f5;padding:20px;color:#333}
+.container{max-width:480px;margin:0 auto;background:#fff;padding:24px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.05)}
+h1{font-size:22px;margin-bottom:8px;text-align:center;color:#c92a2a}
+.subtitle{text-align:center;color:#666;margin-bottom:24px;font-size:14px}
+.form-item{margin-bottom:16px}
+label{display:block;margin-bottom:6px;font-size:14px;color:#333}
+input,textarea{width:100%;padding:12px;border:1px solid #ddd;border-radius:8px;font-size:16px}
+button{width:100%;padding:14px;background:#c92a2a;color:#fff;border:none;border-radius:8px;font-size:16px;margin-top:12px}
+.tip{font-size:12px;color:#999;text-align:center;margin-top:16px}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>信息采集登记表</h1>
+<p class="subtitle">扫码填写，用于活动统计与联系</p >
+
+<div class="form-item">
+<label>姓名</label>
+<input type="text" placeholder="请输入真实姓名">
+</div>
+
+<div class="form-item">
+<label>联系电话</label>
+<input type="tel" placeholder="请输入手机号">
+</div>
+
+<div class="form-item">
+<label>单位/班级</label>
+<input type="text" placeholder="单位或班级名称">
+</div>
+
+<div class="form-item">
+<label>备注信息</label>
+textarea rows="3" placeholder="如有其他说明可填写"></textarea>
+</div>
+
+<button>提交信息</button>
+<p class="tip">信息仅用于本次活动，严格保密</p >
+</div>
+</body>
+</html>
